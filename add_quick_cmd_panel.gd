@@ -78,23 +78,3 @@ func set_edit_mode(command_name: String, command_content: String, command_color:
 	is_editing = true
 	editing_index = index
 	self.show()
-
-
-func _on_arg_1_toggled(toggled_on: bool) -> void:
-	if toggled_on:
-		arg_1.text = "已添加"
-		arg_1.modulate = Color.GREEN
-	else:
-		arg_1.text = "添加"
-		arg_1.modulate = Color.WHITE
-	pass 
-
-
-func _on_arg_2_toggled(toggled_on: bool) -> void:
-	if toggled_on:
-		arg_2.text = "已添加"
-		arg_2.modulate = Color.GREEN
-	else:
-		arg_2.text = "添加"
-		arg_2.modulate = Color.WHITE
-	pass 
