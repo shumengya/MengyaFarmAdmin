@@ -1,6 +1,8 @@
 # 萌芽农场管理员控制台
 
-![Logo](logo.png)
+<div align="center">
+  <img src="logo.png" alt="Logo" width="120" height="120">
+</div>
 
 一个基于 Godot 引擎开发的萌芽农场游戏远程管理控制台，支持通过 WebSocket 连接到游戏服务器进行远程管理和监控。
 
